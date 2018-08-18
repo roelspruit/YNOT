@@ -3,6 +3,13 @@ YNOT is a functional proof-of-concept iOS app using the YNAB API. It was built a
 
 YNOT does only 1 thing. It lets you input your financial transactions into YNAB and at the same time lets you put away a percentage of that transaction to donate to a good cause later on. After all, if you're spending money, YNOT think of others?
 
+
+## Screenshots
+<div style="background-color:#eee;padding: 20px;">
+<img style="border-width:1;border-color:red;" src="Screenshot-1.png" height="300" alt="Screenshot"/>
+<img style="margin-left: 20px;" src="Screenshot-2.png" height="300" alt="Screenshot"/>
+</div>
+
 ## Building and running the app
 
 ### Requirements
