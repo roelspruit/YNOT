@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1767E72B9568AED8D25BE850 /* Pods_YNOT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98A2E8DA4DDA4D2B4BF0DB3 /* Pods_YNOT.framework */; };
+		450408CC21060EB000D87AE9 /* YNAB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BDB16A20F1EB84007D675B /* YNAB.framework */; };
+		450408CD21060EB000D87AE9 /* YNAB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45BDB16A20F1EB84007D675B /* YNAB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		450D5D5020F65CC8005B0002 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D5D4F20F65CC8005B0002 /* Settings.swift */; };
+		4575C1222112207800AD14DD /* BudgetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C1212112207800AD14DD /* BudgetSelectionViewController.swift */; };
+		4583612B20F149BF00672325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583612A20F149BF00672325 /* AppDelegate.swift */; };
+		4583612D20F149BF00672325 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583612C20F149BF00672325 /* TransferViewController.swift */; };
+		4583613020F149BF00672325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4583612E20F149BF00672325 /* Main.storyboard */; };
+		4583613220F149C000672325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4583613120F149C000672325 /* Assets.xcassets */; };
+		4583613520F149C000672325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4583613320F149C000672325 /* LaunchScreen.storyboard */; };
+		45FAAD102107A2AB002EDA2D /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAAD0F2107A2AB002EDA2D /* OnboardViewController.swift */; };
+		45FAAD122107A7DD002EDA2D /* UIButton+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAAD112107A7DD002EDA2D /* UIButton+Helpers.swift */; };
+		45FAAD162107ADD1002EDA2D /* YNABHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAAD152107ADD1002EDA2D /* YNABHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		450408CE21060EB000D87AE9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				450408CD21060EB000D87AE9 /* YNAB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		450D5D4F20F65CC8005B0002 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4575C1212112207800AD14DD /* BudgetSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSelectionViewController.swift; sourceTree = "<group>"; };
+		4583612720F149BF00672325 /* YNOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4583612A20F149BF00672325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4583612C20F149BF00672325 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		4583612F20F149BF00672325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4583613120F149C000672325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4583613420F149C000672325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4583613620F149C000672325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BDB16A20F1EB84007D675B /* YNAB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YNAB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FAAD0F2107A2AB002EDA2D /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		45FAAD112107A7DD002EDA2D /* UIButton+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Helpers.swift"; sourceTree = "<group>"; };
+		45FAAD152107ADD1002EDA2D /* YNABHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNABHelper.swift; sourceTree = "<group>"; };
+		8A29CB53F1902D313F5296D2 /* Pods-YNOT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNOT.release.xcconfig"; path = "Pods/Target Support Files/Pods-YNOT/Pods-YNOT.release.xcconfig"; sourceTree = "<group>"; };
+		ADB0A1EEA660582168DF9849 /* Pods-YNOT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNOT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNOT/Pods-YNOT.debug.xcconfig"; sourceTree = "<group>"; };
+		D98A2E8DA4DDA4D2B4BF0DB3 /* Pods_YNOT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNOT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4583612420F149BF00672325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450408CC21060EB000D87AE9 /* YNAB.framework in Frameworks */,
+				1767E72B9568AED8D25BE850 /* Pods_YNOT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F941EE794C9306BC35D3A23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0A1EEA660582168DF9849 /* Pods-YNOT.debug.xcconfig */,
+				8A29CB53F1902D313F5296D2 /* Pods-YNOT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4583611E20F149BF00672325 = {
+			isa = PBXGroup;
+			children = (
+				4583612920F149BF00672325 /* YNOT */,
+				4583612820F149BF00672325 /* Products */,
+				45BDB16920F1EB84007D675B /* Frameworks */,
+				1F941EE794C9306BC35D3A23 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4583612820F149BF00672325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4583612720F149BF00672325 /* YNOT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4583612920F149BF00672325 /* YNOT */ = {
+			isa = PBXGroup;
+			children = (
+				4583612A20F149BF00672325 /* AppDelegate.swift */,
+				45FAAD0F2107A2AB002EDA2D /* OnboardViewController.swift */,
+				4583612C20F149BF00672325 /* TransferViewController.swift */,
+				4575C1212112207800AD14DD /* BudgetSelectionViewController.swift */,
+				4583612E20F149BF00672325 /* Main.storyboard */,
+				4583613120F149C000672325 /* Assets.xcassets */,
+				4583613320F149C000672325 /* LaunchScreen.storyboard */,
+				4583613620F149C000672325 /* Info.plist */,
+				450D5D4F20F65CC8005B0002 /* Settings.swift */,
+				45FAAD112107A7DD002EDA2D /* UIButton+Helpers.swift */,
+				45FAAD152107ADD1002EDA2D /* YNABHelper.swift */,
+			);
+			path = YNOT;
+			sourceTree = "<group>";
+		};
+		45BDB16920F1EB84007D675B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45BDB16A20F1EB84007D675B /* YNAB.framework */,
+				D98A2E8DA4DDA4D2B4BF0DB3 /* Pods_YNOT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4583612620F149BF00672325 /* YNOT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4583613920F149C000672325 /* Build configuration list for PBXNativeTarget "YNOT" */;
+			buildPhases = (
+				6BCADA39F6A87CED1CA2E725 /* [CP] Check Pods Manifest.lock */,
+				4583612320F149BF00672325 /* Sources */,
+				4583612420F149BF00672325 /* Frameworks */,
+				4583612520F149BF00672325 /* Resources */,
+				450408CE21060EB000D87AE9 /* Embed Frameworks */,
+				1C96FED16F856E05A5CFB37B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNOT;
+			productName = YNOT;
+			productReference = 4583612720F149BF00672325 /* YNOT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4583611F20F149BF00672325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dinkywonder;
+				TargetAttributes = {
+					4583612620F149BF00672325 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4583612220F149BF00672325 /* Build configuration list for PBXProject "YNOT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4583611E20F149BF00672325;
+			productRefGroup = 4583612820F149BF00672325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4583612620F149BF00672325 /* YNOT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4583612520F149BF00672325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4583613520F149C000672325 /* LaunchScreen.storyboard in Resources */,
+				4583613220F149C000672325 /* Assets.xcassets in Resources */,
+				4583613020F149BF00672325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C96FED16F856E05A5CFB37B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YNOT/Pods-YNOT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YNAB-Swift-SDK/YNAB_Swift_SDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNAB_Swift_SDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNOT/Pods-YNOT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BCADA39F6A87CED1CA2E725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YNOT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4583612320F149BF00672325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450D5D5020F65CC8005B0002 /* Settings.swift in Sources */,
+				4575C1222112207800AD14DD /* BudgetSelectionViewController.swift in Sources */,
+				45FAAD162107ADD1002EDA2D /* YNABHelper.swift in Sources */,
+				45FAAD122107A7DD002EDA2D /* UIButton+Helpers.swift in Sources */,
+				4583612D20F149BF00672325 /* TransferViewController.swift in Sources */,
+				45FAAD102107A2AB002EDA2D /* OnboardViewController.swift in Sources */,
+				4583612B20F149BF00672325 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4583612E20F149BF00672325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4583612F20F149BF00672325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4583613320F149C000672325 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4583613420F149C000672325 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4583613720F149C000672325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4583613820F149C000672325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4583613A20F149C000672325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB0A1EEA660582168DF9849 /* Pods-YNOT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74S47PCZWX;
+				INFOPLIST_FILE = YNOT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinkywonder.ynot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4583613B20F149C000672325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A29CB53F1902D313F5296D2 /* Pods-YNOT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74S47PCZWX;
+				INFOPLIST_FILE = YNOT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinkywonder.ynot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4583612220F149BF00672325 /* Build configuration list for PBXProject "YNOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4583613720F149C000672325 /* Debug */,
+				4583613820F149C000672325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4583613920F149C000672325 /* Build configuration list for PBXNativeTarget "YNOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4583613A20F149C000672325 /* Debug */,
+				4583613B20F149C000672325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4583611F20F149BF00672325 /* Project object */;
+}
