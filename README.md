@@ -5,10 +5,8 @@ YNOT does only 1 thing. It lets you input your financial transactions into YNAB 
 
 
 ## Screenshots
-<div style="background-color:#eee;padding: 20px;">
-<img style="border-width:1;border-color:red;" src="Screenshot-1.png" height="300" alt="Screenshot"/>
-<img style="margin-left: 20px;" src="Screenshot-2.png" height="300" alt="Screenshot"/>
-</div>
+![](Screenshot-1.png)
+![](Screenshot-2.png)
 
 ## Building and running the app
 
@@ -24,7 +22,7 @@ YNOT does only 1 thing. It lets you input your financial transactions into YNAB 
 
 
 ## Limitations
-YNOT uses the YNAB API. This api is currently mainly geared towards server sided applications. This has some consequences.
+YNOT uses the YNAB API. This api is currently mainly geared towards server sided applications. This has some consequences that prevent me from releasing this app to the general public at this time:
 
 1) The oAuth authorization used in the app expires after two hours. In practise, this means that a user who would install the app on his phone would probably have to log into YNAB everytime he wants to log a transaction in YNOT.
 
