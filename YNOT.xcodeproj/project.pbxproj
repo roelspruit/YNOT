@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1767E72B9568AED8D25BE850 /* Pods_YNOT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98A2E8DA4DDA4D2B4BF0DB3 /* Pods_YNOT.framework */; };
-		450408CC21060EB000D87AE9 /* YNAB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BDB16A20F1EB84007D675B /* YNAB.framework */; };
-		450408CD21060EB000D87AE9 /* YNAB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45BDB16A20F1EB84007D675B /* YNAB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		450D5D5020F65CC8005B0002 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D5D4F20F65CC8005B0002 /* Settings.swift */; };
 		4575C1222112207800AD14DD /* BudgetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C1212112207800AD14DD /* BudgetSelectionViewController.swift */; };
 		4583612B20F149BF00672325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583612A20F149BF00672325 /* AppDelegate.swift */; };
@@ -21,20 +19,6 @@
 		45FAAD122107A7DD002EDA2D /* UIButton+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAAD112107A7DD002EDA2D /* UIButton+Helpers.swift */; };
 		45FAAD162107ADD1002EDA2D /* YNABHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAAD152107ADD1002EDA2D /* YNABHelper.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		450408CE21060EB000D87AE9 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				450408CD21060EB000D87AE9 /* YNAB.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		450D5D4F20F65CC8005B0002 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -60,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450408CC21060EB000D87AE9 /* YNAB.framework in Frameworks */,
 				1767E72B9568AED8D25BE850 /* Pods_YNOT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,7 +116,6 @@
 				4583612320F149BF00672325 /* Sources */,
 				4583612420F149BF00672325 /* Frameworks */,
 				4583612520F149BF00672325 /* Resources */,
-				450408CE21060EB000D87AE9 /* Embed Frameworks */,
 				1C96FED16F856E05A5CFB37B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -199,11 +181,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YNOT/Pods-YNOT-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YNAB-Swift-SDK/YNAB_Swift_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/YNAB/YNAB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNAB_Swift_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNAB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -390,7 +372,10 @@
 				DEVELOPMENT_TEAM = 74S47PCZWX;
 				INFOPLIST_FILE = YNOT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinkywonder.ynot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -407,7 +392,10 @@
 				DEVELOPMENT_TEAM = 74S47PCZWX;
 				INFOPLIST_FILE = YNOT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinkywonder.ynot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

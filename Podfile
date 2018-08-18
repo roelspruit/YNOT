@@ -6,7 +6,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'YNOT' do
-  pod 'YNAB-Swift-SDK', :git => 'https://github.com/roelspruit/YNAB-Swift-SDK.git'
+  pod 'YNAB', :git => 'https://github.com/roelspruit/YNAB-Swift-SDK.git'
 
   project 'YNOT.xcodeproj'
   workspace 'YNOT.xcworkspace'

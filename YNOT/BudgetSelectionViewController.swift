@@ -31,7 +31,8 @@ class BudgetSelectionViewController: UIViewController {
                 self.switchToMainUI()
             })
             
-            self.present(table, animated: true)
+            let nav = UINavigationController(rootViewController: table)
+            self.present(nav, animated: true)
         }
     }
     
