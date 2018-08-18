@@ -5,8 +5,8 @@ YNOT does only 1 thing. It lets you input your financial transactions into YNAB 
 
 
 ## Screenshots
-![](Screenshot-1.png)
-![](Screenshot-2.png)
+<img src="Screenshot-1.png" alt="drawing" width="200px"/>
+<img src="Screenshot-2.png" alt="drawing" width="200px"/>
 
 ## Building and running the app
 
