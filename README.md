@@ -1,5 +1,5 @@
 # YNOT
-YNOT is a functional proof-of-concept iOS app using the YNAB API. It was built as a submission to the [YNAB API contest](https://www.youneedabudget.com/contest-ynab-api/)
+YNOT is a functional proof-of-concept iOS app using the YNAB API. Together with my [YNAB Swift SDK](https://github.com/roelspruit/YNAB-Swift-SDK), it was built as a submission to the [YNAB API contest](https://www.youneedabudget.com/contest-ynab-api/)
 
 YNOT does only 1 thing. It lets you input your financial transactions into YNAB and at the same time lets you put away a percentage of that transaction to donate to a good cause later on. After all, if you're spending money, YNOT think of others?
 
